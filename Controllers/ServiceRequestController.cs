@@ -84,7 +84,6 @@ namespace exercise.Controllers
             //TODO: Get user and update modifiedBy
             
             return Ok();
-
         }
 
         [HttpDelete("{id}")]
@@ -99,6 +98,5 @@ namespace exercise.Controllers
 
             return Ok();
         }
-
     }
 }

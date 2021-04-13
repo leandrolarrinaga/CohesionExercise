@@ -7,7 +7,6 @@ namespace exercise.Models
 {
     public class ServiceRequest
     {
-
         public Guid id { get; set; }
 
         public string buildingCode { get; set; }
@@ -23,6 +22,5 @@ namespace exercise.Models
         public string lastModifiedBy { get; set; }
 
         public DateTime lastModifiedDate { get; set; }
-
     }
 }
